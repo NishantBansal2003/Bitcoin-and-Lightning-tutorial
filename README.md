@@ -1,6 +1,11 @@
 # Bitcoin-and-Lightning-tutorial
 ![Bitcoin-Lightning](assets/image.png)
 
+## Contents
+- [Bitcoin Core Tutorial](bitcoin_on_regtest_tutorial.md)
+- [LND Tutorial](LND_on_regtest_tutorial.md)
+- [Core-lightning Tutorial](CLN_on_regtest_tutorial.md)
+
 ### Additional Info
 - In bitcoind transactions, peering is irrelevant to the sender and receiver; transactions rely on the broader network.
 - In the Lightning Network, peering depends on whether a direct channel is used:
