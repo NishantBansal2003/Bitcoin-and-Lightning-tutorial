@@ -6,7 +6,11 @@
 - [LND Tutorial](LND_on_regtest_tutorial.md)
 - [Core-lightning Tutorial](CLN_on_regtest_tutorial.md)
 
-### Additional Info
+## My Blogs
+- [Decoding the Bitcoin White-paper: A Simple Explanation](https://medium.com/@nishant_bansal/decoding-the-bitcoin-white-paper-a-simple-explanation-e748d0a6fd19)
+- [Exploring the Bitcoin Lightning Network: The Future of Scalable Transactions](https://medium.com/@nishant_bansal/exploring-the-bitcoin-lightning-network-the-future-of-scalable-transactions-ccdc1acf2aac)
+
+## Additional
 - In bitcoind transactions, peering is irrelevant to the sender and receiver; transactions rely on the broader network.
 - In the Lightning Network, peering depends on whether a direct channel is used:
 
@@ -15,7 +19,7 @@
 
 If you aim to use the Lightning Network efficiently, establishing well-connected channels or relying on good routing nodes is more important than direct peering with every counterparty.
 
-## Info
+### Info
 The behavior you're observing in Node 2 is likely because you used the connect option instead of addnode. Here's how connect affects the output compared to addnode.
 
 ### Difference Between connect and addnode
